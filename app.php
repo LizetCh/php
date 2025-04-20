@@ -103,6 +103,8 @@ include("db.php");
             $("#apellido_paterno").val("");
             $("#apellido_materno").val("");
             
+            // modificar el modal
+            $(".modal-title").text("Crear un Alumno");
             $("#btnAgregar").removeClass("d-none");
             $("#btnGuardarCambios").addClass("d-none");
 
@@ -129,7 +131,8 @@ include("db.php");
             $("#apellido_paterno").val(apellido_paterno);
             $("#apellido_materno").val(apellido_materno);
 
-            // cambiar el botón del modal
+            // cambiar el modal
+            $(".modal-title").text("Editar Alumno");
             $("#btnGuardarCambios").removeClass("d-none");
             $("#btnAgregar").addClass("d-none");
             $("#btnGuardarCambios").data("id", id); // guardar el id en el botón
