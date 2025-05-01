@@ -1,0 +1,1 @@
+Práctica desarrollada en PHP utilizando XAMPP como servidor local. La aplicación permite gestionar una tabla de alumnos almacenada en una base de datos MySQL. A través de una interfaz sencilla, el usuario puede realizar operaciones básicas de CRUD.
